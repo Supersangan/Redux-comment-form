@@ -1,0 +1,105 @@
+/* App-container */
+.app-container {
+  margin: auto;
+  width: 1000px;
+}
+
+/* Comments */
+
+.comments {
+  font-family: sans-serif;
+  margin: auto;
+  margin-top: 100px;
+  width: 820px;
+}
+
+.comments__list {
+  margin-bottom: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.comments__item:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+/* Comment */
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px;
+  padding-left: 60px;
+  border-radius: 12px;
+  color: #fff;
+  background: rgb(40, 44, 52);
+}
+
+.comment__author {
+  margin-top: 9px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.comment__text {
+  margin-top: 9px;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.comment__date-time {
+  padding: 10px;
+  font-size: 0.8rem;
+  background: #000;
+}
+
+.comment__delete {
+  margin-left: auto;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  color: #fff;
+  background: rgb(226 81 97);
+  cursor: pointer;
+}
+
+/* form */
+
+.form__field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form__label {
+  margin-right: auto;
+}
+
+.form__input {
+  padding: 10px 20px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  width: 500px;
+  outline: none;
+}
+
+.form__textarea {
+  padding: 10px 20px;
+  border: 1px solid #999;
+  border-radius: 6px;
+  width: 500px;
+  outline: none;
+  resize: horizontal;
+}
+
+.form__submit {
+  margin-left: auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  color: #fff;
+  background: rgb(19, 108, 197);
+  cursor: pointer;
+}
